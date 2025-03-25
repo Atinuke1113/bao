@@ -66,8 +66,14 @@
       <slot />
     </main>
 
-    <!-- Footer -->
-    <Footer />
+    <footer class="bg-accent-light/20 mt-12">
+      <div class="container mx-auto px-4 py-8">
+        <div class="text-center text-secondary-dark">
+          © {{ new Date().getFullYear() }} Governor's Office. All rights reserved.
+        </div>
+      </div>
+    </footer>
+
   </div>
 </template>
 
@@ -110,3 +116,6 @@ onMounted(() => {
   })
 })
 </script>
+
+
+   

@@ -146,9 +146,9 @@
     <!-- Core Values Section -->
     <section class="py-8 md:py-16 overflow-hidden">
   <div class="container mx-auto px-4">
-    <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-center text-secondary mb-8 md:mb-20 xs:mb-24"
+    <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-center text-secondary mb-12 md:mb-20 xs:mb-24"
         data-aos="fade-down">Core Values</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 md:gap-6">
       <div v-for="value in coreValues" 
            :key="value.title"
            class="bg-white p-6 md:p-10 rounded-xl shadow-lg hover:shadow-xl transition-shadow"
